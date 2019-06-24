@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RhinoUI major_ver="3" minor_ver="0" guid="192ab891-2682-4ba1-a611-ac73c61403d5" localize="False" default_language_id="1033" dpi_scale="100">
+  <extend_rhino_menus>
+    <menu guid="d58ceae7-fdb0-4104-80da-274b94ad44a9">
+      <text>
+        <locale_1033>Extend Rhino Menus</locale_1033>
+      </text>
+    </menu>
+  </extend_rhino_menus>
+  <menus>
+    <menu guid="4e7086c5-4404-4eeb-9d6b-dddb4924f92c">
+      <text>
+        <locale_1033>Sandelions</locale_1033>
+      </text>
+      <menu_item guid="7575bcc6-83bd-484a-b0fa-5c56ece8c65f">
+        <text>
+          <locale_1033>关闭图层</locale_1033>
+        </text>
+        <macro_id>c79fb525-b854-4be5-9c66-45e7a8a04ac9</macro_id>
+        <macro_lib_id>192ab891-2682-4ba1-a611-ac73c61403d5</macro_lib_id>
+      </menu_item>
+      <menu_item guid="dfe2217b-8979-40c1-899d-72ad98e3307b">
+        <text>
+          <locale_1033>关闭其他</locale_1033>
+        </text>
+        <macro_id>1e87b6af-72b3-4fe4-942d-60c80a4a44c3</macro_id>
+        <macro_lib_id>192ab891-2682-4ba1-a611-ac73c61403d5</macro_lib_id>
+      </menu_item>
+      <menu_item guid="b789a67f-44e3-49c7-ab35-ea0d8c0ba3d6">
+        <text>
+          <locale_1033>图层全开</locale_1033>
+        </text>
+        <macro_id>ab69d95c-5d14-40b9-b059-30d21c6c7681</macro_id>
+        <macro_lib_id>192ab891-2682-4ba1-a611-ac73c61403d5</macro_lib_id>
+      </menu_item>
+      <menu_item guid="f618d744-a7b1-4741-ba4f-e371c448892f" item_type="separator" />
+      <menu_item guid="c0d65aa0-f7ee-429b-8306-c6321e5da032">
+        <text>
+          <locale_1033>锁定图层</locale_1033>
+        </text>
+        <macro_id>5b384b2c-cab9-470c-ab38-eba6d8c3404e</macro_id>
+        <macro_lib_id>192ab891-2682-4ba1-a611-ac73c61403d5</macro_lib_id>
+      </menu_item>
+      <menu_item guid="007dc76a-64d5-4c11-a437-119a216e68a1">
+        <text>
+          <locale_1033>锁定其他</locale_1033>
+        </text>
+        <macro_id>298c25ca-5040-4ac0-95cb-32b266d24306</macro_id>
+        <macro_lib_id>192ab891-2682-4ba1-a611-ac73c61403d5</macro_lib_id>
+      </menu_item>
+      <menu_item guid="0050be47-2b18-48df-b91c-4e08e0fb03dd">
+        <text>
+          <locale_1033>解锁全部</locale_1033>
+        </text>
+        <macro_id>77fd73d1-569f-4fd1-94ef-055c1c841639</macro_id>
+        <macro_lib_id>192ab891-2682-4ba1-a611-ac73c61403d5</macro_lib_id>
+      </menu_item>
+      <menu_item guid="d32c818a-1c94-4e52-a054-2c61dbef7f82" item_type="separator" />
+      <menu_item guid="e626e383-a8bc-4bfa-85e3-24e0afa7e8d7">
+        <text>
+          <locale_1033>图层恢复</locale_1033>
+        </text>
+        <macro_id>33fbbcaf-e2ec-453e-b64d-d49e2eef018a</macro_id>
+        <macro_lib_id>192ab891-2682-4ba1-a611-ac73c61403d5</macro_lib_id>
+      </menu_item>
+    </menu>
+  </menus>
+  <tool_bar_groups>
+    <tool_bar_group guid="df47ab7f-a398-4985-8a52-33b88b842c74" dock_bar_guid32="00000000-0000-0000-0000-000000000000" dock_bar_guid64="9897cd32-743c-4442-813d-05c308dca607" active_tool_bar_group="efa601eb-4d91-420a-ab25-ed872cfe2a93" single_file="False" hide_single_tab="False" point_floating="964,488">
+      <text>
+        <locale_1033>Quick layer</locale_1033>
+      </text>
+      <tool_bar_group_item guid="efa601eb-4d91-420a-ab25-ed872cfe2a93" major_version="1" minor_version="1">
+        <text>
+          <locale_1033>Quick layer</locale_1033>
+        </text>
+        <tool_bar_id>e88d7f30-8f69-4292-8d55-2edd77053626</tool_bar_id>
+      </tool_bar_group_item>
+      <dock_bar_info dpi_scale="100" dock_bar="False" docking="True" horz="False" visible="True" floating="True" mru_float_style="4096" bar_id="59471" mru_width="32767" point_pos="-2,-2" float_point="964,488" rect_mru_dock_pos="0,0,0,0" dock_location_u="59420" dock_location="left" float_size="125,90" />
+    </tool_bar_group>
+  </tool_bar_groups>
+  <tool_bars>
+    <tool_bar guid="e88d7f30-8f69-4292-8d55-2edd77053626">
+      <text>
+        <locale_1033>Quick layer</locale_1033>
+      </text>
+      <tool_bar_item guid="c104b1c2-da78-4451-bccd-222f7947f2a4">
+        <text>
+          <locale_1033>Toolbar item</locale_1033>
+        </text>
+        <left_macro_id>c79fb525-b854-4be5-9c66-45e7a8a04ac9</left_macro_id>
+      </tool_bar_item>
+      <tool_bar_item guid="4bccc526-5c98-489f-8f0d-e7fcf25ec6e3">
+        <text>
+          <locale_1033>Toolbar item 00</locale_1033>
+        </text>
+        <left_macro_id>1e87b6af-72b3-4fe4-942d-60c80a4a44c3</left_macro_id>
+      </tool_bar_item>
+      <tool_bar_item guid="b44eface-5539-4fa0-bdbb-790a8f087770">
+        <text>
+          <locale_1033>Toolbar item 01</locale_1033>
+        </text>
+        <left_macro_id>ab69d95c-5d14-40b9-b059-30d21c6c7681</left_macro_id>
+      </tool_bar_item>
+      <tool_bar_item guid="58631cbe-9cb4-4fa0-8596-65c9ae9008aa">
+        <text>
+          <locale_1033>Toolbar item 02</locale_1033>
+        </text>
+        <left_macro_id>5b384b2c-cab9-470c-ab38-eba6d8c3404e</left_macro_id>
+      </tool_bar_item>
+      <tool_bar_item guid="e385ee7e-06be-4ff9-948a-f98044c313e5">
+        <text>
+          <locale_1033>Toolbar item 03</locale_1033>
+        </text>
+        <left_macro_id>298c25ca-5040-4ac0-95cb-32b266d24306</left_macro_id>
+      </tool_bar_item>
+      <tool_bar_item guid="509ae95d-b319-4427-bcc8-98ca23f2be5d">
+        <text>
+          <locale_1033>Toolbar item 04</locale_1033>
+        </text>
+        <left_macro_id>77fd73d1-569f-4fd1-94ef-055c1c841639</left_macro_id>
+      </tool_bar_item>
+      <tool_bar_item guid="4f624e71-77d8-4d67-b162-bf9d0fd5bff7">
+        <text>
+          <locale_1033>Toolbar item 05</locale_1033>
+        </text>
+        <left_macro_id>33fbbcaf-e2ec-453e-b64d-d49e2eef018a</left_macro_id>
+      </tool_bar_item>
+    </tool_bar>
+  </tool_bars>
+  <macros>
+    <macro_item guid="c79fb525-b854-4be5-9c66-45e7a8a04ac9" bitmap_id="ddfaa1bf-a871-489f-bdfa-ffd3fba65f05">
+      <text>
+        <locale_1033>关闭图层</locale_1033>
+      </text>
+      <menu_text>
+        <locale_1033>关闭图层</locale_1033>
+      </menu_text>
+      <script>GBTC</script>
+    </macro_item>
+    <macro_item guid="1e87b6af-72b3-4fe4-942d-60c80a4a44c3" bitmap_id="496d79c9-13f0-484f-9e3b-77e26af20356">
+      <text>
+        <locale_1033>关闭其他</locale_1033>
+      </text>
+      <tooltip>
+        <locale_1033>关闭其他</locale_1033>
+      </tooltip>
+      <help_text>
+        <locale_1033>关闭其他</locale_1033>
+      </help_text>
+      <button_text>
+        <locale_1033>关闭其他</locale_1033>
+      </button_text>
+      <menu_text>
+        <locale_1033>关闭其他</locale_1033>
+      </menu_text>
+      <script>GBQT</script>
+    </macro_item>
+    <macro_item guid="77fd73d1-569f-4fd1-94ef-055c1c841639" bitmap_id="77947ffa-f60f-403e-8976-b1f25100bc11">
+      <text>
+        <locale_1033>解锁全部</locale_1033>
+      </text>
+      <menu_text>
+        <locale_1033>解锁全部</locale_1033>
+      </menu_text>
+      <script>JSQB</script>
+    </macro_item>
+    <macro_item guid="298c25ca-5040-4ac0-95cb-32b266d24306" bitmap_id="ea2f7c84-6c99-48c1-9ba0-1d4a37438790">
+      <text>
+        <locale_1033>锁定其他</locale_1033>
+      </text>
+      <menu_text>
+        <locale_1033>锁定其他</locale_1033>
+      </menu_text>
+      <script>SDQT</script>
+    </macro_item>
+    <macro_item guid="5b384b2c-cab9-470c-ab38-eba6d8c3404e" bitmap_id="b81cf5a3-a443-43b4-a265-67197fc0daf7">
+      <text>
+        <locale_1033>锁定图层</locale_1033>
+      </text>
+      <menu_text>
+        <locale_1033>锁定图层</locale_1033>
+      </menu_text>
+      <script>SDTC</script>
+    </macro_item>
+    <macro_item guid="33fbbcaf-e2ec-453e-b64d-d49e2eef018a" bitmap_id="d1fe058d-f9d5-48aa-8719-7ebf2643b13e">
+      <text>
+        <locale_1033>图层恢复</locale_1033>
+      </text>
+      <menu_text>
+        <locale_1033>图层恢复</locale_1033>
+      </menu_text>
+      <script>TCHF</script>
+    </macro_item>
+    <macro_item guid="ab69d95c-5d14-40b9-b059-30d21c6c7681" bitmap_id="53ce9bbe-bf2f-4479-b218-8a8954f981f8">
+      <text>
+        <locale_1033>图层全开</locale_1033>
+      </text>
+      <menu_text>
+        <locale_1033>图层全开</locale_1033>
+      </menu_text>
+      <script>TCQK</script>
+    </macro_item>
+  </macros>
+  <bitmaps>
+    <small_bitmap item_width="16" item_height="16">
+      <bitmap_item guid="ddfaa1bf-a871-489f-bdfa-ffd3fba65f05" index="0" />
+      <bitmap_item guid="496d79c9-13f0-484f-9e3b-77e26af20356" index="1" />
+      <bitmap_item guid="77947ffa-f60f-403e-8976-b1f25100bc11" index="2" />
+      <bitmap_item guid="ea2f7c84-6c99-48c1-9ba0-1d4a37438790" index="3" />
+      <bitmap_item guid="b81cf5a3-a443-43b4-a265-67197fc0daf7" index="4" />
+      <bitmap_item guid="d1fe058d-f9d5-48aa-8719-7ebf2643b13e" index="5" />
+      <bitmap_item guid="53ce9bbe-bf2f-4479-b218-8a8954f981f8" index="6" />
+      <bitmap>iVBORw0KGgoAAAANSUhEUgAAABAAAABwCAYAAAAXB/A7AAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsAAAA7AAWrWiQkAAAAeSURBVFhH7cExAQAAAMKg9U9tB28gAAAAAAAA
+gEsNHHAAAZoRH88AAAAASUVORK5CYIIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</bitmap>
+    </small_bitmap>
+    <normal_bitmap item_width="24" item_height="24">
+      <bitmap_item guid="ddfaa1bf-a871-489f-bdfa-ffd3fba65f05" index="0" />
+      <bitmap_item guid="496d79c9-13f0-484f-9e3b-77e26af20356" index="1" />
+      <bitmap_item guid="77947ffa-f60f-403e-8976-b1f25100bc11" index="2" />
+      <bitmap_item guid="ea2f7c84-6c99-48c1-9ba0-1d4a37438790" index="3" />
+      <bitmap_item guid="b81cf5a3-a443-43b4-a265-67197fc0daf7" index="4" />
+      <bitmap_item guid="d1fe058d-f9d5-48aa-8719-7ebf2643b13e" index="5" />
+      <bitmap_item guid="53ce9bbe-bf2f-4479-b218-8a8954f981f8" index="6" />
+      <bitmap>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
+ysq/1SwMOmmodoMAAAAASUVORK5CYII=</bitmap>
+    </normal_bitmap>
+    <large_bitmap item_width="32" item_height="32">
+      <bitmap_item guid="ddfaa1bf-a871-489f-bdfa-ffd3fba65f05" index="0" />
+      <bitmap_item guid="496d79c9-13f0-484f-9e3b-77e26af20356" index="1" />
+      <bitmap_item guid="77947ffa-f60f-403e-8976-b1f25100bc11" index="2" />
+      <bitmap_item guid="ea2f7c84-6c99-48c1-9ba0-1d4a37438790" index="3" />
+      <bitmap_item guid="b81cf5a3-a443-43b4-a265-67197fc0daf7" index="4" />
+      <bitmap_item guid="d1fe058d-f9d5-48aa-8719-7ebf2643b13e" index="5" />
+      <bitmap_item guid="53ce9bbe-bf2f-4479-b218-8a8954f981f8" index="6" />
+      <bitmap>iVBORw0KGgoAAAANSUhEUgAAACAAAADgCAYAAABikmRAAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsAAAA7AAWrWiQkAAADgSURBVHhe7dKLasMwDAXQ/P9Pb7jg4bmxpLxg
+dOeAKIl1ZQW6fYqvQh12ZEh01mT5H72x1Dyo9Kc9Ry8dRdl29ujlzd4l/V1pdqlpYbwoqtCqYR7S
+a8/qfRPlXuaG/jxWJutJZ0QNlSVuWSBqWp313Jnsm2hYdkGUi7K7xoFjZfYyrfifLv8P5gFz7Vn1
+rPp/mcM91H8jc2ZWmbFUXeAx0Zc12fktsgUeZ4E/v0BliUuLZuHKEo8u0PQlojrtbPjyxd0tQwAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAHi3bd+4xp1jA4CzFgAAAABJRU5ErkJggg==</bitmap>
+    </large_bitmap>
+  </bitmaps>
+  <scripts />
+</RhinoUI>
